@@ -1,0 +1,31 @@
+.ihk{
+    background-image: url(/image/netfliximg/hulu_imge.jpeg);
+    display: grid;
+    height: 500px;
+    background-size: cover;
+}
+
+.head{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+}
+
+.facial{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.ver{
+    display: flex;
+    gap: 26px;
+    margin-left: -30px;
+    font-size: 20px;
+    color: white;
+}
+
+.hulu{
+   color: white;
+}
+

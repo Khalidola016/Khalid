@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(purple,rgb(29, 29, 78),grey);
+}
+
+.login-container {
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+    background-color: #ffffff;
+    padding: 20px;
+
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.logo {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 20px;
+}
+.facebook-login {
+    background-color: #1877f2;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    color: #a8a8a8;
+    margin: 20px 0;
+}
+
+.separator::before, .separator::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #a8a8a8;
+    margin: 0 10px;
+}
+.login-form .input-field {
+    width: 100%;
+    padding: 10px;
+    background-color: #262626;
+    border: 1px solid #4a4a4a;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.forgot-password {
+    color: #0095f6;
+    font-size: 0.9rem;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.login-btn {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.signup-section {
+    margin-top: 20px;
+}
+
+.signup-link {
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.signup-section p {
+    color: #a8a8a8;
+}
